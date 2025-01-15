@@ -1,0 +1,178 @@
+body,
+html {
+    direction: rtl
+}
+
+a,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+li,
+p,
+span,
+ul {
+    font-family: Cairo, sans-serif
+}
+
+.pre-header ul.social-media {
+    text-align: left
+}
+
+.about.section,
+.dropdown-menu,
+.main-banner,
+.pre-header .info {
+    text-align: right
+}
+
+.header-area .main-nav .logo {
+    float: right;
+    text-align: right
+}
+
+.header-area .main-nav .nav {
+    float: left
+}
+
+.header-area .main-nav .nav li:last-child {
+    padding-left: 0
+}
+
+.pre-header ul.info li a i {
+    margin-left: 8px
+}
+
+.header-area .main-nav .menu-trigger {
+    right: auto;
+    left: 40px
+}
+
+.header-area .main-nav .nav li a {
+    letter-spacing: 0
+}
+
+.dropdown .dropdown-menu.active {
+    transform: translate3d(-10%, 0, 0)
+}
+
+.main-banner .left-content p {
+    margin-right: 0
+}
+
+.about-left-image img {
+    margin-left: 45px;
+    margin-right: 0
+}
+
+form#contact #map iframe {
+    border-radius: 0 23px 23px 0
+}
+
+form#contact:before {
+    right: 340px
+}
+
+@media (max-width:1200px) {
+    form#contact:before {
+        right: 170px
+    }
+}
+
+@media (max-width:992px) {
+    .header-area .main-nav .nav li {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+@media (max-width:768px) {
+    form#contact:before {
+        right: 0
+    }
+
+    .about.section,
+    .main-banner,
+    .pre-header .info,
+    .pre-header ul.social-media {
+        text-align: center
+    }
+
+    .header-area .main-nav .nav {
+        float: none
+    }
+
+    .dropdown .dropdown-menu.active {
+        transform: translate3d(15%, 20px, 0)
+    }
+}
+
+.portfolio-item .down-content {
+    min-height: 280px
+}
+
+
+
+/*  */
+.value .about_tricker_rtl {
+    left: auto;
+    right: -60px;
+}
+
+.value .about_icon_rtl {
+    left: auto;
+    right: 64px;
+}
+
+@keyframes jumping {
+    from {
+        right: 30px;
+        top: -80px;
+    }
+
+    to {
+        right: 64px;
+    }
+}
+
+.value .about_sharp_1 {
+    right: auto;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+
+.value .about_sharp_2 {
+    right: auto;
+    left: 75px;
+}
+
+@keyframes jumping2 {
+    from {
+        left: 45px;
+    }
+
+    to {
+        left: 75px;
+    }
+}
+
+.value .about_sharp_3 {
+    right: auto;
+    left: 125px;
+}
+
+@keyframes jumping3 {
+    from {
+        left: 150px;
+    }
+
+    to {
+        left: 125px;
+    }
+}
